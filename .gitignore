@@ -1,0 +1,6 @@
+# dirs
+.waypoint
+__pycache__/
+*.log
+.secrets.toml
+waypoint-server-snapshot-*

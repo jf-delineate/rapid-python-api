@@ -1,0 +1,12 @@
+{
+    "cSpell.words": [
+        "aiohttp",
+        "asyncio",
+        "buildpacks",
+        "capco",
+        "heroku",
+        "loguru",
+        "pydantic",
+        "venv"
+    ]
+}
