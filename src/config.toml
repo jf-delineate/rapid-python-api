@@ -1,6 +1,3 @@
 [api]
 [api.companies_house]
 api_url = "https://api.company-information.service.gov.uk/company/{}"
-
-[api.endole]
-api_url = "https://api.endole.co.uk/company/{}"
