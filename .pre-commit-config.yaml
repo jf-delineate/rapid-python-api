@@ -1,30 +1,30 @@
 repos:
 
 -   repo: https://github.com/ambv/black
-    rev: 20.8b1
+    rev: 21.9b0
     hooks:
     - id: black
       language_version: python3.8
 
 -   repo: https://gitlab.com/pycqa/flake8
-    rev: 3.8.4
+    rev: 4.0.1
     hooks:
     - id: flake8
 
 - repo: https://github.com/shellcheck-py/shellcheck-py
-  rev: v0.7.1.1
+  rev: v0.7.2.1
   hooks:
     - id: shellcheck
 
 - repo: https://github.com/yelp/detect-secrets.git
-  rev: v0.14.3
+  rev: v1.1.0
   hooks:
     - id: detect-secrets
       name: Detect secrets
       args: ['--baseline', '.secrets.baseline']
 
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v3.4.0
+  rev: v4.0.1
   hooks:
     - id: trailing-whitespace
     - id: end-of-file-fixer

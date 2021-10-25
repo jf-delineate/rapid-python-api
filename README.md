@@ -11,17 +11,17 @@
   <h2 align="center">delineate.io</h2>
   <p align="center">portray or describe (something) precisely.</p>
 
-  <h3 align="center">Rapid Python API</h3>
+  <h3 align="center">Fast API Example</h3>
 
   <p align="center">
     Demonstrate a potential combination of technologies to rapidly build and deploy Python APIs
     <br />
-    <a href="https://github.com/jf-delineate/rapid-python-api"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/delineateio/fast-api-example"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/jf-delineate/rapid-python-api/issues">Report Bug</a>
+    <a href="https://github.com/delineateio/fast-api-example/issues">Report Bug</a>
     ·
-    <a href="https://github.com/jf-delineate/rapid-python-api/issues">Request Feature</a>
+    <a href="https://github.com/delineateio/fast-api-example/issues">Request Feature</a>
   </p>
 </p>
 
@@ -82,10 +82,10 @@ brew install hashicorp/tap/waypoint
 
 ```shell
 # clone the repo
-git clone https://github.com/jf-delineate/rapid-python-api.git
+git clone https://github.com/delineateio/fast-api-example.git
 
 # creates the virtual env
-pyenv virtualenv 3.9.1 rapid-python-api-3.9.1
+pyenv virtualenv 3.9.1 fast-api-example-3.9.1
 
 # installs the tooling requirements
 pip install -r requirements.txt
@@ -130,11 +130,14 @@ docker rm companies-api -f && docker system prune -f
 ### Waypoint
 
 ```shell
+# run the commands in ./src
+cd ./.src
+
 # start the waypoint server locally
 waypoint install --platform=docker -accept-tos
 
 # generate the waypoint token
-waypoint token new
+waypoint user token new
 
 # initialises the directory
 waypoint init
@@ -155,7 +158,7 @@ docker ps --format 'table {{.Names}}\t{{.Image}}\t{{.Ports}}'
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/jf-delineate/rapid-python-api/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/delineateio/fast-api-example/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -170,8 +173,8 @@ Contributions are what make the open source community such an amazing place to b
 
 If you would like to contribute to any Capco Digital OSS projects please read:
 
-* [Code of Conduct](https://github.com/jf-delineate/.github/blob/master/CODE_OF_CONDUCT.md)
-* [Contributing Guidelines](https://github.com/jf-delineate/.github/blob/master/CONTRIBUTING.md)
+* [Code of Conduct](https://github.com/delineateio/.github/blob/master/CODE_OF_CONDUCT.md)
+* [Contributing Guidelines](https://github.com/delineateio/.github/blob/master/CONTRIBUTING.md)
 
 <!-- LICENSE -->
 ## License
@@ -185,13 +188,13 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/jf-delineate/rapid-python-api.svg?style=for-the-badge
-[contributors-url]: https://github.com/jf-delineate/rapid-python-api/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/jf-delineate/rapid-python-api.svg?style=for-the-badge
-[forks-url]: https://github.com/jf-delineate/rapid-python-api/network/members
-[stars-shield]: https://img.shields.io/github/stars/jf-delineate/rapid-python-api.svg?style=for-the-badge
-[stars-url]: https://github.com/jf-delineate/rapid-python-api/stargazers
-[issues-shield]: https://img.shields.io/github/issues/jf-delineate/rapid-python-api.svg?style=for-the-badge
-[issues-url]: https://github.com/jf-delineate/rapid-python-api/issues
-[license-shield]: https://img.shields.io/github/license/jf-delineate/rapid-python-api.svg?style=for-the-badge
-[license-url]: https://github.com/jf-delineate/rapid-python-api/blob/master/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/delineateio/fast-api-example.svg?style=for-the-badge
+[contributors-url]: https://github.com/delineateio/fast-api-example/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/delineateio/fast-api-example.svg?style=for-the-badge
+[forks-url]: https://github.com/delineateio/fast-api-example/network/members
+[stars-shield]: https://img.shields.io/github/stars/delineateio/fast-api-example.svg?style=for-the-badge
+[stars-url]: https://github.com/delineateio/fast-api-example/stargazers
+[issues-shield]: https://img.shields.io/github/issues/delineateio/fast-api-example.svg?style=for-the-badge
+[issues-url]: https://github.com/delineateio/fast-api-example/issues
+[license-shield]: https://img.shields.io/github/license/delineateio/fast-api-example.svg?style=for-the-badge
+[license-url]: https://github.com/delineateio/fast-api-example/blob/master/LICENSE

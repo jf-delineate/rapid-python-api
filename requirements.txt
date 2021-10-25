@@ -1,7 +1,7 @@
 behave==1.2.6
-detect-secrets==0.14.3
-fastapi==0.63.0
+detect-secrets==1.1.0
+fastapi==0.70.0
 loguru==0.5.3
-pre-commit==2.10.1
+pre-commit==2.15.0
 toml==0.10.2
-uvicorn==0.13.3
+uvicorn==0.15.0
