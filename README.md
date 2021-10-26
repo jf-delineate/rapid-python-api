@@ -85,7 +85,7 @@ brew install hashicorp/tap/waypoint
 git clone https://github.com/delineateio/fast-api-example.git
 
 # creates the virtual env
-pyenv virtualenv 3.9.1 fast-api-example-3.9.1
+pyenv virtualenv 3.9.1 fast-api-example
 
 # installs the tooling requirements
 pip install -r requirements.txt
