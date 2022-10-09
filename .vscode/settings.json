@@ -2,11 +2,19 @@
     "cSpell.words": [
         "aiohttp",
         "asyncio",
+        "Autobuild",
         "buildpacks",
         "capco",
+        "cncf",
+        "codeql",
+        "endole",
+        "fastapi",
         "heroku",
+        "httpie",
         "loguru",
         "pydantic",
-        "venv"
+        "pyenv",
+        "venv",
+        "virtualenv"
     ]
 }
