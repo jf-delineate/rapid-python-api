@@ -1,5 +1,5 @@
 behave==1.2.6
-detect-secrets==1.1.0
+detect-secrets==1.4.0
 fastapi==0.70.0
 loguru==0.6.0
 pre-commit==2.15.0
