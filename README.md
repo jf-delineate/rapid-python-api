@@ -35,13 +35,6 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
@@ -63,38 +56,7 @@ The purpose of this repo is to demonstrate a potential combination of technologi
 * [Build Packs](https://buildpacks.io/) is a [cncf](https://www.cncf.io/) project to transform application code into images to run on any cloud
 * [Hashicorp Waypoint](https://www.waypointproject.io/) provides a modern workflow to build, deploy, and release across platforms.
 
-<!-- GETTING STARTED -->
-## Getting Started
-
-To get a local copy up and running follow these simple steps.
-
-### Prerequisites
-
-There are a number of local dependencies that are required.  If you are using `macOS` then you can use `brew` to install these.
-
-```shell
-brew install docker --cask
-brew install httpie pack pyenv
-brew install hashicorp/tap/waypoint
-```
-
-### Installation
-
-```shell
-# clone the repo
-git clone https://github.com/delineateio/fast-api-example.git
-
-# creates the virtual env
-pyenv virtualenv 3.9.1 fast-api-example
-
-# installs the tooling requirements
-pip install -r requirements.txt
-
-# installs the git hook for pre-commit
-pre-commit install
-```
-
-<!-- USAGE EXAMPLES -->
+<!-- USAGE EXAMPLES -->curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
 ## Usage
 
 ### Run Native

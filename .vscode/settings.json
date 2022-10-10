@@ -3,6 +3,8 @@
         "aiohttp",
         "asyncio",
         "Autobuild",
+        "autodocst",
+        "autopep",
         "buildpacks",
         "capco",
         "cncf",
@@ -12,9 +14,16 @@
         "heroku",
         "httpie",
         "loguru",
+        "mypy",
+        "njpwerner",
+        "pycodestyle",
         "pydantic",
+        "pydocstyle",
         "pyenv",
+        "pylance",
+        "pylint",
         "venv",
-        "virtualenv"
+        "virtualenv",
+        "yapf"
     ]
 }
