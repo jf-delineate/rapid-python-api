@@ -6,3 +6,4 @@ __pycache__/
 waypoint-server-snapshot-*
 data.db
 .DS_Store
+.dccache
