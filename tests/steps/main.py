@@ -5,7 +5,6 @@ import json
 
 @given("with path {path}")
 def domain_with_path(context, path):
-
     url = "http://localhost:8000" + path
     context.request_url = url
     print("url: " + context.request_url)
@@ -13,7 +12,6 @@ def domain_with_path(context, path):
 
 @given("header {key} as {value}")
 def header_key_as_value(context, key, value):
-
     if not hasattr(context, "request_headers"):
         context.request_headers = {}
 
@@ -23,14 +21,12 @@ def header_key_as_value(context, key, value):
 
 @given("request {body}")
 def request_body(context, body):
-
     context.request_body = json.loads(body)
     print("body: " + body)
 
 
 @when("method {verb}")
 def method_verb(context, verb):
-
     context.request_method = verb
     print("method: " + context.request_method)
 
@@ -61,6 +57,5 @@ def method_verb(context, verb):
 
 @then("status {code}")
 def status_code(context, code):
-
     print("expected: " + str(code))
     assert str(context.response_code) == str(code)
