@@ -1,7 +1,7 @@
 behave==1.2.6
 bleach==6.1.0
 detect-secrets==1.4.0
-fastapi==0.103.2
+fastapi==0.104.1
 loguru==0.7.1
 pre-commit==3.5.0
 requests==2.31.0
