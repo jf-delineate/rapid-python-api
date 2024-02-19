@@ -3,7 +3,7 @@ bleach==6.1.0
 detect-secrets==1.4.0
 fastapi==0.108.0
 loguru==0.7.2
-pre-commit==3.6.0
+pre-commit==3.6.2
 requests==2.31.0
 toml==0.10.2
 uvicorn==0.25.0
