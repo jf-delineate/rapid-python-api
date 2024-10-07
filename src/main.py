@@ -1,4 +1,5 @@
 """This module implements an example API using FastAPI"""
+
 import os
 import sys
 import requests
